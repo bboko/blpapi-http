@@ -34,7 +34,6 @@ declare module "restify" {
     params: any;
 
     body?: any; //available when bodyParser plugin is used
-    isSecure: () => boolean;
   }
 
   interface Response extends http.ServerResponse {
